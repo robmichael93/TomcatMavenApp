@@ -75,8 +75,8 @@
 	<distributionManagement>
 		<repository>
 			<uniqueVersion>false</uniqueVersion>
-			<id>corp1</id>
-			<name>Corporate Repository</name>
+			<id>tomcat-deployment-server</id>
+			<name>Tomcat Repository</name>
 			<url>http://localhost:9090/manager/text/deploy</url>
 			<layout>default</layout>
 		</repository>
