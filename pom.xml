@@ -72,5 +72,13 @@
             </plugin>
         </plugins>
     </build>
-
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>corp1</id>
+			<name>Corporate Repository</name>
+			<url>sftp://192.168.0.43:9090/TomcatMavenApp/</url>
+			<layout>default</layout>
+		</repository>
+    </distributionManagement>
 </project>
